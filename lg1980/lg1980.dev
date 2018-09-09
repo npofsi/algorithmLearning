@@ -1,6 +1,6 @@
 [Project]
-FileName=lg1422.dev
-Name=lg1422
+FileName=lg1980.dev
+Name=lg1980
 Type=1
 Ver=2
 ObjFiles=
@@ -28,7 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000000000000
+CompilerSettings=0000000000000000001000000
 UnitCount=1
 
 [VersionInfo]
