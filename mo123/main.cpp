@@ -23,12 +23,6 @@ int comp(Edge x,Edge y){
 	}
 	return true;
 }
-void join(Edge e){
-	links[find(e.u)]=e.v
-//	if(findx(e.u)!=find(e.v)){
-//		
-//	}
-}
 int findx(int a){
 //	if(links[a]==b||links[b]==a){
 //		return false;
@@ -45,6 +39,13 @@ int findx(int a){
 	}
 	return last;
 }
+void join(Edge e){
+	links[findx(e.u)]=findx(e.v);
+//	if(findx(e.u)!=find(e.v)){
+//		
+//	}
+}
+
 int main(int argc, char** argv) {
 	cin>>n>>m;//>>k;
 	for(int i=1;i<=m;i++){
@@ -65,7 +66,7 @@ int main(int argc, char** argv) {
 	 		//cout<<p[i].u<<" "<<p[i].v;
 	 		//p[i].enable=false;
 	 		//links.push_back
-			join(p[i].v);
+			join(p[i]);
 	 		//isLinked[p[i].v].push_back(p[i].u);
 	 		ans+=p[i].w;
 		 }
