@@ -18,26 +18,39 @@ Edge p[500001];
 int links[200001];
 int n,m,k;
 int comp(Edge x,Edge y){
-	if(x.w>y.w){
-		return false;
-	}
-	return true;
+  return x.w < y.w;
 }
-int findx(int a){
+
+int findx(int x)
+{
+    int k, j, r;
+    r = x;
+    while(r != links[r])     //查找跟节点
+        r = links[r];      //找到跟节点，用r记录下
+    k = x;
+    while (k != r) //非递归路径压缩操作
+    {
+      j = links[k]; //用j暂存parent[k]的父节点
+      links[k] = r; // parent[x]指向跟节点
+      k = j;         // k移到父节点
+    }
+    return r; //返回根节点的值
+}
+int findxx(int a){
 //	if(links[a]==b||links[b]==a){
 //		return false;
 //	}
-    int last=1; 
+       // int last=1; 
 	int pos=a;
 	//int poss=b;
 	//vector<int> aps={};
 	//vector<int> bps={};
-	while(pos!=0){
+	while(pos!=links[pos]){
 		//aps.push_back(pos);
-		last=pos;
+		//last=pos;
 		pos=links[pos];
 	}
-	return last;
+	return pos;
 }
 void join(Edge e){
 	links[findx(e.u)]=findx(e.v);
@@ -48,6 +61,9 @@ void join(Edge e){
 
 int main(int argc, char** argv) {
 	cin>>n>>m;//>>k;
+        for (int c = 0; c <= n; c++) {
+          links[c] = c;
+        }
 	for(int i=1;i<=m;i++){
 		int x,y,w;
 		cin>>x>>y>>w;
@@ -57,9 +73,9 @@ int main(int argc, char** argv) {
 		e.w=w;
 		p[i]=e;
 	}
-	sort(p,p+m,comp);
+	sort(p,p+m+1,comp);
 	int t=0;
-	int ans=0;
+	long long ans=0;
 	 for(int i=1;i<=m;i++){
 	    //vector<int> links=isLinked[p[i].u];
 	 	if(findx(p[i].v)!=findx(p[i].u)){
@@ -69,8 +85,9 @@ int main(int argc, char** argv) {
 			join(p[i]);
 	 		//isLinked[p[i].v].push_back(p[i].u);
 	 		ans+=p[i].w;
+                        t++;
 		 }
-		 t++;
+		 
 		 if(t==n-1)break;
 	 }
 	//if(ans!=0)
@@ -79,8 +96,6 @@ int main(int argc, char** argv) {
 	//cout<<"No Answser";
 	return 0;
 }
-
-
 
 
 
