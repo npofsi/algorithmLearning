@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Left\Workspace\Study\oj\vjudge\BJTU-2021暑期集训-新生个人赛01\build\CMakeFiles\fe53ab42131867fa41e11d4b0166db4d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5C0C3109-EC9F-3C58-8652-1A7F9B3322F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

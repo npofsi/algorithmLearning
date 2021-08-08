@@ -1,0 +1,10 @@
+^C:\LEFT\WORKSPACE\STUDY\OJ\BJTU-VJUDGE\BJTU-2021-讲座题单【基础数据结构模板题】\BUILD\CMAKEFILES\EC808B2E0977DA6AE967A1152A2525AE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Left/Workspace/Study/oj/bjtu-vjudge/BJTU-2021-讲座题单【基础数据结构模板题】 -BC:/Left/Workspace/Study/oj/bjtu-vjudge/BJTU-2021-讲座题单【基础数据结构模板题】/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Left/Workspace/Study/oj/bjtu-vjudge/BJTU-2021-讲座题单【基础数据结构模板题】/build/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

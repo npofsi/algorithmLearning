@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Left\Workspace\Study\oj\vjudge\BJTU-2021暑期集训-新生个人赛01\A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Left\Workspace\Study\oj\vjudge\BJTU-2021暑期集训-新生个人赛01\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B054546A-53F7-359A-88E0-8E4477E679E5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

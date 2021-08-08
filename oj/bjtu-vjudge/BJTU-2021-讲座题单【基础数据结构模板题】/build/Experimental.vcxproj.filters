@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Left\Workspace\Study\oj\bjtu-vjudge\BJTU-2021-讲座题单【基础数据结构模板题】\build\CMakeFiles\ec808b2e0977da6ae967a1152a2525ae\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Left\Workspace\Study\oj\bjtu-vjudge\BJTU-2021-讲座题单【基础数据结构模板题】\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Left\Workspace\Study\oj\bjtu-vjudge\BJTU-2021-讲座题单【基础数据结构模板题】\build\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8FF7A162-F01E-3F04-BDCB-65C366014A85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

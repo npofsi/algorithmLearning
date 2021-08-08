@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Left\Workspace\Study\oj\bjtu-vjudge\BJTU-2021-讲座题单【基础数据结构题单】\A_heap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Left\Workspace\Study\oj\bjtu-vjudge\BJTU-2021-讲座题单【基础数据结构题单】\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9C4C0789-A867-3303-B4F4-34EBF9BF26E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
