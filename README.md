@@ -1,1 +1,1 @@
-# NOIpStudy
+# OIStudy
