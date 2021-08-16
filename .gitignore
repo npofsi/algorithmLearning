@@ -1,5 +1,7 @@
 */build*
 build
+.vscode
+*/.vscode
 */.vs
 .vs
 */out

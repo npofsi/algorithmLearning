@@ -1,9 +1,0 @@
-C:/Left/Workspace/Study/oj/codeforces/Codeforces_Round_734_Div.3/build/CMakeFiles/NightlyMemoryCheck.dir
-C:/Left/Workspace/Study/oj/codeforces/Codeforces_Round_734_Div.3/build/CMakeFiles/Experimental.dir
-C:/Left/Workspace/Study/oj/codeforces/Codeforces_Round_734_Div.3/build/CMakeFiles/Continuous.dir
-C:/Left/Workspace/Study/oj/codeforces/Codeforces_Round_734_Div.3/build/CMakeFiles/Nightly.dir
-C:/Left/Workspace/Study/oj/codeforces/Codeforces_Round_734_Div.3/build/CMakeFiles/problem.dir
-C:/Left/Workspace/Study/oj/codeforces/Codeforces_Round_734_Div.3/build/CMakeFiles/PACKAGE.dir
-C:/Left/Workspace/Study/oj/codeforces/Codeforces_Round_734_Div.3/build/CMakeFiles/RUN_TESTS.dir
-C:/Left/Workspace/Study/oj/codeforces/Codeforces_Round_734_Div.3/build/CMakeFiles/ALL_BUILD.dir
-C:/Left/Workspace/Study/oj/codeforces/Codeforces_Round_734_Div.3/build/CMakeFiles/ZERO_CHECK.dir
