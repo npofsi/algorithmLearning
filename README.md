@@ -8,20 +8,24 @@ The oi study repo of team _Key_Value_
 
 ---
 
-> vjudge
-
-| Problems                                                              | A   | B   | C   | D   | E   | F   | G   | H   | I   | J   | K   | L   | M   |
-| --------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [BJTU-2021 暑期集训-新生组队赛 01](https://vjudge.net/contest/451937) | O   | -   | O   | -   | -   | X   | -   | -   | -   | O   | -   | X   | O   |
-| [BJTU-2021-组队赛训练 2](https://vjudge.net/contest/453349)           | O   | O   | O   | -   | O   | -   | O   | -   | -   | X   | -   | O   |     |
-| [BJTU-2021-组队赛训练 3](https://vjudge.net/contest/454302)           | O   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | O   |
+members: npofsi, FocusMercial, Lusien1
 
 ---
 
-> HDOJ
+> Trainings
 
-| Problems | A   | B   | C   | D   | E   | F   | G   | H   | I   | J   | K   | L   | M   |
-| -------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Example  |
+| Name                                                                                             | Date      | A   | B   | C   | D   | E   | F   | G   | H   | I   | J   | K   | L   | M   |
+| ------------------------------------------------------------------------------------------------ | --------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [The 18th Zhejiang Provincial Collegiate Programming Contest](https://vjudge.net/contest/451937) | 2021.8.9  | O   | -   | O   | -   | -   | X   | -   | -   | -   | O   | -   | X   | O   |
+| [“红旗杯”第十四届吉林省大学生程序设计大赛](https://vjudge.net/contest/453349)                    | 2021.8.16 | O   | O   | O   | -   | O   | -   | O   | -   | -   | X   | -   | O   |     |
+| [ICPC 2019-2020 North-Western Russia Regional Contest](https://vjudge.net/contest/454302)        | 2021.8.19 | O   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | O   |
+
+---
+
+> Online
+
+| Name    | A   | B   | C   | D   | E   | F   | G   | H   | I   | J   | K   | L   | M   |
+| ------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Example |
 
 ---
