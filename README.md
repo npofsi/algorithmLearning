@@ -26,6 +26,6 @@ members: npofsi, FocusMercial, Lusien1
 
 | Name    | A   | B   | C   | D   | E   | F   | G   | H   | I   | J   | K   | L   | M   |
 | ------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [2021中国大学生程序设计竞赛（CCPC）- 网络选拔赛](https://acm.hdu.edu.cn/contests/contest_show.php?cid=1031)        | 2021.8.19 | O   | -   | -   | -   | -   | O   | X   | -   | X   | -   | -   | -   | -  |
+| [2021中国大学生程序设计竞赛（CCPC）- 网络选拔赛](https://acm.hdu.edu.cn/contests/contest_show.php?cid=1031)        | 2021.8.28 | O   | -   | -   | -   | -   | O   | X   | -   | X   | -   | -   | -   | -  |
 
 ---
